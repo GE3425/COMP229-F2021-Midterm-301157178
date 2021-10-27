@@ -39,7 +39,7 @@ router.get('/add', (req, res, next) => {
      let newBook = book({
         "Title": "",
         "Description": "",
-        "Price": 0,
+        "Price": "",
         "Author": "",
         "Genre": ""        
   });
